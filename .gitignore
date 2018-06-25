@@ -1,0 +1,8 @@
+*.jpg
+outputimg/
+subjectimg/
+styles/
+config.py
+config.pyc
+testDIR/
+instabotimagerecords/
