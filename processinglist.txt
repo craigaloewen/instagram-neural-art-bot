@@ -1,0 +1,34 @@
+def main():
+	If we have a completed image that hasn't been uploaded to instagram yet
+		loadimgandexecute()
+		If we have a completed image:
+			uploadtoinsta()
+		else
+			return an error
+	else
+		uploadtoinsta()
+
+def loadimgandexecute():
+	
+	obtain a style and input image
+
+	convert images to 400x400 conserving aspect ratio
+
+	execute main script ( post to api )
+
+def uploadtoinsta():
+
+	if image is already on instagram:
+		just cleanup
+	else
+		Make the style image look nice in a 1 aspect ratio
+		
+		upload to instagram function
+
+		wait 10 minutes
+
+		if image is already on instagram
+			cleanup
+			return success
+		else 
+			return failure

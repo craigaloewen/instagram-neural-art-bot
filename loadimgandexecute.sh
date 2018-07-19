@@ -8,7 +8,7 @@ if [ -z "$(ls -A ./algoinputimg/)" ]; then
 	ADDIMAGE_OUTPUT=$(python addimageforprocessing.py)
 	echo "$ADDIMAGE_OUTPUT"
 
-	CONVERT_SIZE="800x800"
+	CONVERT_SIZE="400x400"
 
 	if ! [[ $ADDIMAGE_OUTPUT = *"Error"* ]]; then
 
